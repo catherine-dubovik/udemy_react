@@ -10,10 +10,10 @@ class App extends Component {
       { name: 'Lena', age: '27' }
     ]
   }
-  switchName = () =>{
+  switchName = (event) =>{
     this.setState({
       users:[
-        { name: 'Michael', age: '25' },
+        { name: event.target.value, age: '25' },
         { name: 'Lena', age: '26' }
       ]
     })
@@ -21,8 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={this.switchName}>Switch name</button>
-        <UserInput/>
+        <UserInput changed={this.switchName}/>
         <UserOutput
           name={this.state.users[0].name}
           age={this.state.users[0].age}/>
