@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="952e32bc-d693-48d5-866c-08e1f425c955" name="Default Changelist" comment="completed assignments 1-4">
+    <list default="true" id="952e32bc-d693-48d5-866c-08e1f425c955" name="Default Changelist" comment="completed assignments 5-8">
+      <change afterPath="$PROJECT_DIR$/src/User/UserStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/UserInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/UserOutput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/UserOutput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606995462534</updated>
       <workItem from="1606995464882" duration="841000" />
-      <workItem from="1606996321491" duration="593000" />
+      <workItem from="1606996321491" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="completed assignments 1-4">
       <created>1606996459650</created>
@@ -52,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606996459650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed assignments 5-8">
+      <created>1606996971796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606996971796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed assignments 1-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed assignments 1-4" />
+    <MESSAGE value="completed assignments 5-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed assignments 5-8" />
   </component>
 </project>

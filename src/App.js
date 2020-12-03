@@ -10,6 +10,22 @@ class App extends Component {
       { name: 'Lena', age: '27' }
     ]
   }
+  style = {
+    display: 'block',
+    outline: 'none',
+    padding: '10px',
+    border: '2px solid green',
+    cursor: 'pointer',
+    margin: '10px'
+  }
+  switchNameButton = (newName) =>{
+    this.setState({
+      users:[
+        { name: 'Mike', age: '25' },
+        { name: newName, age: '27' }
+      ]
+    })
+  }
   switchName = (event) =>{
     this.setState({
       users:[
@@ -21,21 +37,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserInput changed={this.switchName}/>
+        <button style={this.style} onClick={()=>this.switchNameButton('Helen')}>Switch user</button>
+        <UserInput
+          changed={this.switchName}
+          name = {this.state.users[0].name}/>
         <UserOutput
           name={this.state.users[0].name}
           age={this.state.users[0].age}/>
         <UserOutput
           name={this.state.users[1].name}
           age={this.state.users[1].age}/>
-        <ol>
-          
-          <li>Add a method to manipulate the state (=> an event-handler method)</li>
-          <li>Pass the event-handler method reference to the UserInput component and bind it to the input-change event</li>
-          <li>Ensure that the new input entered by the user overwrites the old username passed to UserOutput</li>
-          <li>Add two-way-binding to your input (in UserInput) to also display the starting username</li>
-          <li>Add styling of your choice to your components/ elements in the components - both with inline styles and stylesheets</li>
-        </ol>
       </div>
     );
   }
